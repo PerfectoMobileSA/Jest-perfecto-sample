@@ -31,7 +31,7 @@ module.exports = function describeWithPerfecto(capName, name, callback, body) {
                     'takesScreenshot' : config[capName].takesScreenshot
                   }
                     //launch the remoteWebDriver
-                    var REMOTE_URL = process.env.remoteUrl; //Replace process.env.remoteUrl with your remote URl 'https://cloudName.perfectomobile.com/nexperience/perfectomobile/wd/hub/fast'
+                    var REMOTE_URL = 'https://'+process.env.cloudName+'.perfectomobile.com/nexperience/perfectomobile/wd/hub/fast'; //Replace process.env.cloudName with your demo 'demo'
                     browser =  await  new sel.Builder().withCapabilities(capabilities).usingServer(REMOTE_URL).build();
                     await browser.manage().setTimeouts({implicit:20000});
                     var perfectoExecutionContext =  
