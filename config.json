@@ -1,0 +1,32 @@
+{
+    "android-web":
+      {
+        "model": "Galaxy.*",
+        "platformName": "Android",
+        "browserName":"Chrome",
+        "takesScreenshot":true
+      },
+    "ios-web":
+      {
+        "model": "iPhone.*",
+        "platformName": "iOS",
+        "browserName":"Safari"
+      }
+    ,
+    "ios-native":
+      {
+        "model": "iPhone.*",
+        "platformName": "iOS",
+        "bundleId":"com.apple.calculator",
+        "browserName":"Safari"
+      },
+    "desktop-web":
+      {
+        "platformVersion": "10",
+        "platformName": "Windows",
+        "browserName":"Chrome",
+        "browserVersion":"83",
+        "resolution":"1024x768",
+        "location":"US East"
+      }
+  }

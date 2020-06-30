@@ -1,0 +1,15 @@
+{
+  "name": "jest-perfecto-sample",
+  "version": "1.0.0",
+  "description": "Sample Jest Perfecto integrated project",
+  "main": "index.js",
+  "author": "Dushyantan Satike, Perfecto PS",
+  "license": "ISC",
+  "dependencies": {
+    "perfecto-reporting": "^2.5.3"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
