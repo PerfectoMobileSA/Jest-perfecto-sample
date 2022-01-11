@@ -25,7 +25,7 @@
         "platformVersion": "10",
         "platformName": "Windows",
         "browserName":"Chrome",
-        "browserVersion":"83",
+        "browserVersion":"latest",
         "resolution":"1024x768",
         "location":"US East"
       }
